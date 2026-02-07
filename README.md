@@ -1,31 +1,33 @@
-# First-Order Agent Architecture
+# First-Order Agent Architecture: A Conceptual System Design and Failure Mode Analysis
 
-**Conceptual System Design & Failure Mode Analysis**
+## Overview
 
-This repository contains all materials related to the conceptual paper:
+This repository hosts the conceptual design and analysis of **first-order agent architecture**, focusing on the **first-order essence** of agent systems.  
+It provides a framework for understanding agent system states, architectural components, and potential failure modes, without relying on model training, benchmarks, or empirical performance claims.
 
-**First-Order Agent Architecture: A Conceptual System Design and Failure Mode Analysis**
+The goal is to provide a **fundamental system-oriented perspective**, helping researchers and independent developers reason about agent behavior and system design from the **core properties** of the architecture.
 
-It provides a first-principles approach to agent system architecture, analyzing potential failure modes and offering a clean, reproducible specification. This work is purely conceptual and does **not** include model training, benchmarks, or empirical performance claims.
+## Contents
 
----
+- `first-order-agent-architecture.pdf`: The final conceptual paper in PDF format, detailing the architecture and failure mode analysis.
+- `figures/`: Optional architecture diagrams illustrating system components and interactions.
+- `README.md`: This file, containing overview, usage, and citation information.
+- `LICENSE`: Open source license file (MIT recommended).
 
-## Repository Contents
+## Key Concepts
 
-- `first-order-agent-architecture.pdf` — The final PDF of the paper.  
-- `diagrams/` — Supplementary architecture diagrams and schematics.  
-- `README.md` — This file, providing overview and usage instructions.  
-- `release_notes.md` — Notes describing the GitHub Release contents.  
+- **First-Order Essence**: The core, invariant properties of an agent system that determine its behavior and architectural constraints.
+- **System Architecture**: Components, interactions, and information flow in a conceptual agent framework.
+- **Failure Modes**: Analysis of potential structural or operational failures, highlighting areas requiring careful design or monitoring.
 
-All files are intended for reference and citation purposes.
+## Usage
 
----
+This repository is intended for **educational and conceptual reference**.  
+You can download the PDF and diagrams to understand the design principles, explore failure mode analysis, and use the insights for research or prototyping of agent systems.
 
-## Zenodo DOI
+```bash
+# Clone the repository
+git clone https://github.com/beidald/first-order-agent-architecture.git
 
-This repository is linked to a Zenodo DOI for citation:
-
-
-
-Please cite this work when referencing it in academic or technical contexts:
-
+# Access the paper
+open first-order-agent-architecture.pdf
